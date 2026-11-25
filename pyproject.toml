@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "zh-claim-lint"
+version = "0.1.0"
+description = "Offline, rule-based checks for structured claims in Chinese drafts"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+classifiers = ["Programming Language :: Python :: 3"]
+
+[project.scripts]
+zh-claim-lint = "zh_claim_lint.__main__:main"
+
+[tool.setuptools]
+packages = ["zh_claim_lint"]
