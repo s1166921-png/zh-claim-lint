@@ -6,9 +6,11 @@
 
 ## 30 秒试用
 
-在项目目录中运行（包含虚构示例）：
+复制下面三行即可试用。不需要先安装本工具；示例数据是虚构的。
 
 ```sh
+git clone https://github.com/s1166921-png/zh-claim-lint.git
+cd zh-claim-lint
 python -m zh_claim_lint examples/source.txt examples/draft.txt
 ```
 
@@ -42,6 +44,10 @@ Python 接口：`from zh_claim_lint import check`，调用 `check(原文, 草稿
 ```sh
 python -m unittest discover -s tests -v
 ```
+
+## 反馈与贡献
+
+遇到误报或漏报？欢迎 [提交 Issue](https://github.com/s1166921-png/zh-claim-lint/issues) 并附上可复现的虚构或脱敏片段，以及你预期的告警结果。请勿上传客户、业务或个人数据。项目采用 [MIT 许可证](LICENSE)。
 
 ## English
 
