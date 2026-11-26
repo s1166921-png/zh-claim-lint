@@ -62,3 +62,7 @@ python -m unittest discover -s tests -v
 ## English
 
 An offline editorial lint for Chinese drafts. It compares structured dates, monetary amounts, percentages, and notice identifiers against a supplied source file. It flags values for **human review**, not semantic factuality. Run the fictional demo above or pass two UTF-8 files with optional JSON output.
+
+## 同系列 / Related
+
+[跨境回款对账 · Payout Reconcile](https://github.com/s1166921-png/payout-reconcile)：在本地比对平台结算与收款流水，标出需要人工复核的差异。
